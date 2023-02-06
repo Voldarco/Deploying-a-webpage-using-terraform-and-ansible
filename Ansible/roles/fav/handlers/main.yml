@@ -1,0 +1,10 @@
+---
+# handlers file for time
+
+- name: restart apache2
+  tags: restart
+  service:
+    name: apache2
+    enabled: yes
+    state: restarted
+

@@ -1,0 +1,5 @@
+.terraform
+Ubuntu.pem
+providers.tf
+terraform.tfstate
+terraform.tfstate.backup
